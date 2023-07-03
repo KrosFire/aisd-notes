@@ -1,0 +1,1 @@
+Klasa algorytmów, które polegają głównie na optymalizacji. Mamy zbiór $C$ i kryterium $k$ porównujące jakość rozwiązania. W każdym kroku usuwamy $x \in C$ i wstawiamy do zbioru wynikowego $S$ na podstawie kryterium $k$
