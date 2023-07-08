@@ -21,3 +21,11 @@ Następnie musimy wziąć poprawkę na to, że priorytet nowego wierzchołka, mo
 ### Delete
 
 Gdy chcemy usunąć pewien wierzchołek, musimy go wpierw znaleźć. Po tym jak nam się to udało, musimy go sprowadzić do parteru. Jednak musimy to robić z uwagą, ponieważ nie dzieci mają różne priorytety. Załóżmy że $j$ i $k$ są odpowiednio lewym i prawym dzieckiem usuwanego wierzchołka. Jeśli $p(j) > p(k)$, musimy wykonać rotację w prawo. Wtedy wierzchołek $j$ o wyższym priorytecie trafi na górę, co nie zaburzy naszego porządku, a nasz usuwany element schodzi niżej.
+
+## $\Omega(n)$ rotacji do usunięcia wierzchołka
+
+Aby stworzyć drzewiec, który wymaga $\Omega(n)$ rotacji do usunięcia korzenia wygląda następująco:
+
+![[Pasted image 20230706205629.png]]
+
+Czyli lewe poddrzewo, posiada same prawe dzieci, a prawe poddrzewo, same prawe dzieci. Wagi są przydzielane od lewej do prawej idąc po wysokości. Przetestujcie 😎
